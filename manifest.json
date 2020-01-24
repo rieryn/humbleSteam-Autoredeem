@@ -1,0 +1,26 @@
+{
+  "name": "Humble Steam Autoredeem",
+  "version": "0.1",
+  "description": "Automatically redeem steam keys upon page load and close tab if successful.",
+  "permissions": [
+    "*://store.steampowered.com/account/registerkey?key=*",
+    "*://www.humblebundle.com/*",
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+    "matches": ["*://store.steampowered.com/account/registerkey?key=*"],
+    "js": ["content.js"]
+  }
+
+  ],
+  "web_accessible_resources": ["script.js"],
+  "manifest_version": 2
+}

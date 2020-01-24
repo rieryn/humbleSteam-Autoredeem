@@ -1,0 +1,18 @@
+  {
+    "name": "Getting Started Example",
+    "version": "1.0",
+    "description": "Build an Extension!",
+        "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+  "content_scripts": [ {
+      "matches": ["*store.steampowered.com/account/registerkey*"],
+      "js": ["content.js"]
+    } ]
+    "permissions": [
+        "storage",
+        "*store.steampowered.com/account/registerkey*"
+    ],
+    "manifest_version": 2
+  }
