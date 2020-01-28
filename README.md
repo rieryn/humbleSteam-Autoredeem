@@ -1,5 +1,6 @@
 # humbleSteam-Autoredeem
-A chrome extension to mass redeem keys from humble bundle 
+A chrome extension to mass redeem keys from humble bundle
+
 Functionality:
 1. Automatically redeems keys on navigation to steam redeem page
 2. Right click 'Reveal all Keys' on Humble key page to load all keys
