@@ -14,6 +14,7 @@ Alternatively, go to https://chrome.google.com/webstore/detail/humblekey-autored
 
 # Help
 Q: does this work on not chrome?
+
 A: no
 
 
